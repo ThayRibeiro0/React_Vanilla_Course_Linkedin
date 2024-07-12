@@ -36,3 +36,23 @@ TESTS
 npm install --save-dev mocha chai
 npm install --save-dev @babel/register
 npm install --save-dev sinon node-fetch fetch-mock
+
+ADD the file "babel.config.json"
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-modules-commonjs"
+  ]
+}
+
+ADD the file "mocharc.json"
+{
+    "require": "@babel/register",
+    "recursive": true,
+    "spec": "src/**/*.test.js"
+  }
+  
