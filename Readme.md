@@ -9,9 +9,13 @@ npx webpack-dev-server --mode development
 LOADER page
 npm install --save-dev react-hot-loader
 
-
+//Run project
 npm run dev
 http://localhost:3000/
+
+//Run Server
+npm run start
+http://localhost:8080/
 
 REDUX
 npm install redux-persist
