@@ -29,7 +29,7 @@ export const addTodoRequest = text => async dispatch => {
           },
           method: 'post',
           body,
-          LOAD_TODOS_SUCESS});
+          loadTodosSucess});
       const todo = await response.json();
       dispatch(createTodo(todo));
   } catch (e) {
