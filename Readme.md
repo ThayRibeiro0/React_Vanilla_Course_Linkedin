@@ -6,7 +6,7 @@ npm install react react-dom
 npm install --save-dev webpack webpack-cli webpack-dev-server style-loader css-loader babel-loader
 npx webpack-dev-server --mode development 
 
-LOADER
+LOADER page
 npm install --save-dev react-hot-loader
 
 
